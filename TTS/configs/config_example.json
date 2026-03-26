@@ -1,0 +1,40 @@
+{
+  "layers_count": 3,
+  "layers": [
+    {
+      "layer_idx": 0,
+      "samples": {
+        "qwen": [0, 1, 2, 3],
+        "glm": [0, 1, 2]
+      },
+      "alpha": 1.0,
+      "beta": 0.5,
+      "threshold": 0.6
+    },
+    {
+      "layer_idx": 1,
+      "samples": {
+        "qwen": [4, 5, 6, 7],
+        "glm": [3, 4, 5],
+        "qcoder": [0, 1, 2]
+      },
+      "alpha": 1.0,
+      "beta": 0.5,
+      "threshold": 0.4
+    },
+    {
+      "layer_idx": 2,
+      "samples": {
+        "qwen": [8, 9, 10],
+        "glm": [6, 7, 8],
+        "qwen-coder": [3, 4, 5],
+        "qwen-14b": [0, 1, 2]
+      },
+      "alpha": 1.0,
+      "beta": 0.5,
+      "threshold": 0.0
+    }
+  ]
+}
+
+

@@ -1,0 +1,11 @@
+dspy
+numpy
+tqdm
+datasets
+matplotlib
+scikit-learn
+scipy
+sentence-transformers
+torch
+transformers
+codebleu
